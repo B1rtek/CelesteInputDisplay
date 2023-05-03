@@ -93,9 +93,10 @@ int main() {
     DisplayButton climbButton = DisplayButton(sf::Vector2i(10, 210), sf::Vector2i(80, 80), "climb", {sf::Keyboard::LShift, sf::Keyboard::Z, sf::Keyboard::V});
     DisplayButton dashButton = DisplayButton(sf::Vector2i(110, 210), sf::Vector2i(80, 80), "dash", {sf::Keyboard::X});
     DisplayButton jumpButton = DisplayButton(sf::Vector2i(210, 210), sf::Vector2i(80, 80), "jump", {sf::Keyboard::C});
+    DisplayButton escButton = DisplayButton(sf::Vector2i(10, 10), sf::Vector2i(80, 80), "Esc", {sf::Keyboard::Escape});
 
     std::vector<DisplayButton *> buttons = {&upButton, &leftButton, &downButton, &rightButton, &climbButton,
-                                            &dashButton, &jumpButton};
+                                            &dashButton, &jumpButton, &escButton};
 
     sf::Vector2i grabbedOffset;
     bool grabbedWindow = false;
