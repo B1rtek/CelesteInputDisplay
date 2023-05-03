@@ -1,4 +1,4 @@
-# CelesteDisplay
+# CelesteInputDisplay
 
 Displays what keys you're pressing in the game, simple as that. Just download the latest release and play. Oh, it's only for Windows, sorry.
 
