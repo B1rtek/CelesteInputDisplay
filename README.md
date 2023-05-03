@@ -1,6 +1,7 @@
 # CelesteInputDisplay
 
-Displays what keys you're pressing in the game, simple as that. Just download the latest release and play. Oh, it's only for Windows, sorry.
+Displays what keys you're pressing in the game, simple as that. Just download the latest release and play. Oh, it's only for Windows, sorry.  
+You can drag it around with your mouse, to close it simply press escape (while focused).
 
 # Building
 
