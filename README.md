@@ -1,6 +1,12 @@
 # CelesteDisplay
 
-Displays what keys you're pressing in the game, simple as that. Just download the latest release and play. Oh, it's only for Windows, sorry.
+Displays what keys you're pressing in the game, simple as that. Just download the latest release and play. Oh, it's only for Windows, sorry. You can change the colors of the buttons in the `settings.txt` file, that will appear after the first run:
+```
+Released: 200 200 200
+Pressed: 120 120 120
+Opacity: 128
+```
+Released and Pressed are decimal RGB values, while Opacity is just an alpha value applied to all buttons. Doing weird stuff to these will most likely result in a crash. If you screw up, you can always remove this file and run the app again to generate a new one.
 
 # Building
 
@@ -10,4 +16,3 @@ mkdir build && cd build
 cmake ..
 cmake --build .
 ```
-You'll need that if you want to change the colour or opacity of the "buttons".
