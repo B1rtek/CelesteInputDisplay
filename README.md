@@ -12,3 +12,6 @@ cmake ..
 cmake --build .
 ```
 You'll need that if you want to change the colour or opacity of the "buttons".
+
+# Credits
+Thanks to Alia5 for the [Transparent SFML Window template!](https://gist.github.com/Alia5/5d8c48941d1f73c1ef14967a5ffe33d5)
